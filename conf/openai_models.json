@@ -26,6 +26,55 @@
   },
   "models": [
     {
+      "model_name": "gpt-6-sol",
+      "friendly_name": "OpenAI (GPT-6 Sol)",
+      "aliases": [
+        "sol",
+        "gpt6-sol",
+        "gpt6sol",
+        "gpt-6",
+        "gpt6"
+      ],
+      "intelligence_score": 19,
+      "description": "GPT-6 Sol (1.05M context, 128K output) - Flagship GPT-6 reasoning model with vision support.",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "supports_extended_thinking": true,
+      "supports_system_prompts": true,
+      "supports_streaming": true,
+      "supports_function_calling": true,
+      "supports_json_mode": true,
+      "supports_images": true,
+      "supports_temperature": true,
+      "max_image_size_mb": 20.0,
+      "default_reasoning_effort": "medium",
+      "allow_code_generation": true,
+      "temperature_constraint": "fixed"
+    },
+    {
+      "model_name": "gpt-6-luna",
+      "friendly_name": "OpenAI (GPT-6 Luna)",
+      "aliases": [
+        "luna",
+        "gpt6-luna",
+        "gpt6luna"
+      ],
+      "intelligence_score": 14,
+      "description": "GPT-6 Luna (1.05M context, 128K output) - Fast, low-cost GPT-6 model with vision support.",
+      "context_window": 1050000,
+      "max_output_tokens": 128000,
+      "supports_extended_thinking": true,
+      "supports_system_prompts": true,
+      "supports_streaming": true,
+      "supports_function_calling": true,
+      "supports_json_mode": true,
+      "supports_images": true,
+      "supports_temperature": true,
+      "max_image_size_mb": 20.0,
+      "default_reasoning_effort": "medium",
+      "temperature_constraint": "fixed"
+    },
+    {
       "model_name": "gpt-5",
       "friendly_name": "OpenAI (GPT-5)",
       "aliases": [

@@ -25,10 +25,32 @@
   },
   "models": [
     {
+      "model_name": "grok-4.3",
+      "friendly_name": "X.AI (Grok 4.3)",
+      "aliases": [
+        "grok",
+        "grok43",
+        "grok-43",
+        "grok4.3",
+        "grok-4.3-latest"
+      ],
+      "intelligence_score": 18,
+      "description": "GROK-4.3 (1M context) - Fastest, most capable Grok with reasoning, tool calling and vision",
+      "context_window": 1000000,
+      "max_output_tokens": 1000000,
+      "supports_extended_thinking": true,
+      "supports_system_prompts": true,
+      "supports_streaming": true,
+      "supports_function_calling": true,
+      "supports_json_mode": true,
+      "supports_images": true,
+      "supports_temperature": true,
+      "max_image_size_mb": 20.0
+    },
+    {
       "model_name": "grok-4",
       "friendly_name": "X.AI (Grok 4)",
       "aliases": [
-        "grok",
         "grok4",
         "grok-4"
       ],
